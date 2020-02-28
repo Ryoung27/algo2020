@@ -1,3 +1,4 @@
+# 831ms
 def accum(s):
     s = s.lower()
     answer = ""
