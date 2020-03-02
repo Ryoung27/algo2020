@@ -1,0 +1,16 @@
+/**
+ * @param {string} address
+ * @return {string}
+ */
+var defangIPaddr = function(address) {
+    let answer = ''
+    for (i = 0; i < address.length; i++) {
+        if (address[i] === '.'){
+            answer = answer + '[.]';
+        }
+        else{
+        answer += address[i]
+        }
+}
+    return answer
+};
