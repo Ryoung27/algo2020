@@ -16,4 +16,5 @@ emp_2 = Employee("Test", "U", 10.00)
 
 print(emp_1.first)
 print(emp_2.first)
-print(emp_1.fullname())
+emp_1.fullname()
+emp_2.fullname()
