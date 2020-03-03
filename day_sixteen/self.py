@@ -15,3 +15,14 @@ picaso.rundown()
 
 jobs = Artist("Steve", "designer", "dead")
 jobs.rundown()
+
+class Comedian:
+	def __init__(self, name, style, podcast):
+		self.name = name
+		self.style = style
+		self.podcast = podcast
+	def info(self):
+		print(self.name + " is a " + self.style + " comedian " + self.podcast + " a podcast")
+
+rogan = Comedian("Joe Rogan", "political", "with")
+rogan.info()
